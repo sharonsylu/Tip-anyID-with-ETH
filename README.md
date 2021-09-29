@@ -4,14 +4,15 @@ How would we tip anyone in ETH, simply by sending to their digital identity? Thi
 
 **An experiment**:
 
-This forms the basis of an extremely lightweight way to interact AND transact in any way with anyone on the web2 and web3 internet, across any internet identifier [1], across any platform, in a web3 way. 
+This forms the basis of an extremely lightweight way to interact AND transact with anyone on the web2 and web3 internet, across any internet identifier [1], across any platform, in a web3 way. 
 
 How it works: 
 * You connect your ethereum wallet
 * You send a tip offer to @TwitterID
 * The smart contract locks/holds the ETH in escrow
 * You send a tweet or DM to @TwitterID to let them know they have received a tip
-* Only the @TwitterID, through their log-in, can retrieve the ETH from the contract
+* If they are the genuine @TwitterID, then only they can log-in (and attest) they are the owner of the handle to claim the ETH
+* The Attestation certificate serves as the right to claim the ETH tip from the contract, without revealing their authentication credentials or further information (such as wallet address) to any other party
 
 Key properties: 
 * not require access to a centralised authority or platform's verification system, eg Twitter Blue Tick.
@@ -25,15 +26,17 @@ Will build with:
   So this is onchain and open for anyone to query and verify that interaction. 
 * Attestations, a TokenScript component.
   This generates the Attestation certificate, using zk, for any 3rd party who needs proof to verify.
-* Attestation.id
+* Attestation.id.
 
-ID Expansion pack: 
-We start with a Twitter handle, but any public web2 internet identifier will work. This can be: 
+ID Expansion pack:   
+  We start with a Twitter handle, but any public web2 internet identifier will work.
+  
+  This can be: 
 * a Discord account
 * a Reddit account 
 * a PGP key
 * an 0x wallet address or ENS Name
-* a peice of content on IPFS
+* a peice of content or object on IPFS
 * any decentralised or centralised social network
 * any other services or platforms that devs want to build
 
