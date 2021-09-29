@@ -19,7 +19,7 @@ Key properties:
 * use cases where pseudonymous internet identifiers can satisfy the interaction, without compromising the txn.
 * specifically, avoid sovereign identity to verify as KYC information is vulnerable PII
 * a systematic way to interact with web3, so you "plug-in" only once to interface across all web2 social platforms!
-* is able to migrate to a decentralized system
+* this version is peer to peer (meaning, entity to entity, individual to entity and vice versa).
 
 Will build with: 
 * EVM Smart Contracts for Ethereum Testnet
@@ -33,17 +33,18 @@ ID Expansion pack:
   
   This can be: 
 * a Discord account
-* a Reddit account 
+* a Reddit account
 * a PGP key
 * an 0x wallet address or ENS Name
 * a peice of content or object on IPFS
-* any decentralised or centralised social network
-* any other services or platforms that devs want to build
+* any decentralised, or centralised, social network
+* any other services or platforms being built by devs
 
 Some considerations during the build:
 * tradeoffs
 * improvements
 * implementation conditions
+* differences in onboarding
 
 This forms the project submission to ETHGlobal Online Hackathon.
 
