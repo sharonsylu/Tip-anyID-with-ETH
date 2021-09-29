@@ -11,7 +11,7 @@ How it works:
 * You send a tip offer to @TwitterID
 * The smart contract locks/holds the ETH in escrow
 * You send a tweet or DM to @TwitterID to let them know they have received a tip
-* Only @TwitterID can retrieve the ETH from the contract
+* Only the @TwitterID, through their log-in, can retrieve the ETH from the contract
 
 Key properties: 
 * not require access to a centralised authority or platform's verification system, eg Twitter Blue Tick.
