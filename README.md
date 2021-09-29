@@ -1,6 +1,6 @@
 # Tip ETH to anyone
 
-How would we tip anyone in ETH, simply by sending to their digital identity? This unlocks the ability to interact and transact with anyone, without needing to know the recipient's web3 wallet address. Nor do you need to wait, or rely on, social platforms to build a wallet function that you seek to integrate with.
+How would we tip anyone in ETH, simply by sending to their digital identity? This unlocks the ability to interact and transact with anyone, without needing to know the recipient's web3 wallet address. Nor do you need to wait, or rely on, social platforms to build a wallet function as a user or a dev, making it simple to bypass integration complexities.
 
 **An experiment**:
 
